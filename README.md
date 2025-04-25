@@ -10,7 +10,7 @@
         DB_NAME = [nombre de la base de datos en local]```
         
   Con el fin de que el código dentro del cuaderno jupyter ejecute correctamente, este archivo no debe ser subido al repositorio.
-- Los cursores van a generar cambios en la base de datos, al ser ejecutados por segunda vez generan errores.
+- Los cursores van a generar cambios en la base de datos, al ser ejecutados por segunda vez pueden generar errores si no se les añade una condición para verificar que los cambios no hayan sido previamente aplicados.
 ## Cambios a las tablas
 - En ciudad:
   - ciudad_id -> id
