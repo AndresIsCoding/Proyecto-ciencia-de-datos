@@ -18,3 +18,5 @@
 - En departamento:
   - departamento_id -> id
   - nombre -> nombre_departamento
+- En cliente:
+  - nombre -> nombre cliente
