@@ -20,7 +20,10 @@
   - nombre -> nombre_departamento
 - En cliente:
   - nombre -> nombre cliente
-En sede:
+- En sede:
   - nombre -> nombre_sede
+- En mensajeria_estadosservicio:
+  - Se añaden las columnas dia y mes
 ## Notas
-  - En la base de datos los nombres eran todos iguales, entonces para obtener los nombres de los mensajeros se utilizo el username asociado al user_id.
+  - En la base de datos los nombres eran todos iguales, entonces para obtener los nombres de los mensajeros se utilizo el username asociado al user_id (revisar tabla auth_user).
+  - Hay que revisar porque la dimension fecha (dim_fecha) toca ejecutarla dos veces para que muestre el resultado correcto (las tablas dia y fecha sin NaN)
