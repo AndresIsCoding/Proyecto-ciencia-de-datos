@@ -11,7 +11,7 @@
         
   Con el fin de que el código dentro del cuaderno jupyter ejecute correctamente, este archivo no debe ser subido al repositorio.
 - Los cursores van a generar cambios en la base de datos, al ser ejecutados por segunda vez pueden generar errores si no se les añade una condición para verificar que los cambios no hayan sido previamente aplicados.
-## Cambios a las tablas
+## Cambios a las tablas (aparecen en este mismo formato dentro del codigo)
 - En ciudad:
   - ciudad_id -> id
   - nombre -> nombre_ciudad
@@ -20,3 +20,7 @@
   - nombre -> nombre_departamento
 - En cliente:
   - nombre -> nombre cliente
+En sede:
+  - nombre -> nombre_sede
+## Notas
+  - En la base de datos los nombres eran todos iguales, entonces para obtener los nombres de los mensajeros se utilizo el username asociado al user_id.
