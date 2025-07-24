@@ -8,6 +8,7 @@
         DB_HOST = [host asignado, generalmente es localhost]
         DB_PORT = [puerto asignado, generalmente es el 5432]
         DB_NAME = [nombre de la base de datos en local]```
+        DW_NAME = [nombre de la base de datos que se utilizará como bodega en local]```
         
   Con el fin de que el código dentro del cuaderno jupyter ejecute correctamente, este archivo no debe ser subido al repositorio.
 - Los cursores van a generar cambios en la base de datos, al ser ejecutados por segunda vez pueden generar errores si no se les añade una condición para verificar que los cambios no hayan sido previamente aplicados.
